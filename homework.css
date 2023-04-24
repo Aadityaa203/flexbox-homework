@@ -1,0 +1,42 @@
+*{
+    font-family: Verdana;
+}
+body{
+    background: #eee;
+}
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap; //wrap around next line
+}
+.box{
+    height:100px;
+    //flex-basis: 320px;
+    //min-width: 320px;
+    //float: left;  --float on leftside
+    //flex-grow:1;  //grow your boxes
+    //flex-shrink: 1; --shrink your boxes
+}
+.one{
+    background: red;
+    //flex-grow: 1;
+    //flex-shrink: 1;
+    flex-basis: 200px;
+}
+.two{
+    background: blue;
+    //flex-grow: 8;
+    //flex-shrink: 2;
+    flex-basis: 300px;
+}
+.three{
+    background: green;
+    //flex-grow: 3;
+    //flex-shrink: 1;
+    flex-basis: 100px;
+}
